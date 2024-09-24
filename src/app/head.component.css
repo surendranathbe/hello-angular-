@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: aquamarine;
+}
+.container
+{
+    background-color: lightgrey;
+    width: 100vh;
+    height: 100vh;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 15px;
+    position: absolute;
+}
+p
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2%;
+    color: crimson;
+    background-color: lime;
+}
+.image
+{
+    background-image: url('surendra.jpg');
+    background-size: cover;
+    float: left;
+    border-radius: 50%;
+    border: 10px solid yellow;
+    width: 30vh;
+    height: 30vh;
+}
+.form
+{
+    font-size: 2rem;
+    font-family:  Georgia;
+    color: black;
+    float: right;
+    padding: 1.4%;
+}
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: red;
+}
+.name
+{
+    float: left;
+    font-size: 1.7em;
+    padding: 15%;
+    display:inline-block;
+}
+button
+{
+    font-size: 2em;
+    color: crimson;
+    background-color: yellow;
+    width: 20%;
+    position: relative;
+    top: 60%;
+    cursor:pointer;
+}
+button:hover 
+{
+    background-color: #3e8e41
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
